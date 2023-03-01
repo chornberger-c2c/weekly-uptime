@@ -19,9 +19,9 @@ week() {
 }
 
 main() {
-  date 
-  hours 
-  week 
+  date
+  hours
+  week
 }
 
 main "$@" || exit 1
