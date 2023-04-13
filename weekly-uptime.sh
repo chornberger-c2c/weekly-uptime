@@ -15,7 +15,7 @@ hours() {
 }
 
 week() {
-  last | awk '/reboot/ { print $5 " " $6 " " $7 " " $11 }' | tail -n +2 | head -5 | grep -B7 Mon
+  last | awk '/reboot/ { print $5 " " $6 " " $7 " " $11 }' | tail -n +2 | grep -B16 -m1 Mon
 }
 
 main() {
