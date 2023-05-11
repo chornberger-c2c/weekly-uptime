@@ -1,7 +1,7 @@
 #!/bin/bash
 # show this week's machine uptime
 
-date() {
+today() {
   echo -n "$(last | awk '/reboot/ { print $5 " " $6 " " $7 " " $11 }' | head -1)"
 }
 
@@ -19,7 +19,7 @@ week() {
 }
 
 main() {
-  date
+  today
   hours
   week
 }
