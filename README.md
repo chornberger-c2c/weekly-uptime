@@ -1,6 +1,6 @@
-# bash-misc
-collection of bash scripts
+# weekly-uptime
 
+It shows the uptime of your workstation for this week.
 
 To run weekly-uptime:
 ```
