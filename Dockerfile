@@ -1,4 +1,6 @@
 FROM ubuntu:22.04
-ADD weekly-uptime.sh /weekly-uptime.sh
-RUN chmod +x /weekly-uptime.sh
-CMD ["/weekly-uptime.sh"]
+USER root
+RUN mkdir -p /opt/app
+ADD weekly-uptime.sh /opt/app/weekly-uptime.sh
+RUN chmod +x /opt/app/weekly-uptime.sh
+CMD ["/opt/app/weekly-uptime.sh"]
