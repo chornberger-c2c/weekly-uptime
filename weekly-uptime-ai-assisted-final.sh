@@ -1,0 +1,1 @@
+ai-assisted/weekly-uptime-ai-assisted-final.sh
