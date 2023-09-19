@@ -1,3 +1,4 @@
+[![Docker Repository on Quay](https://quay.io/repository/chornberger/weekly-uptime/status "Docker Repository on Quay")](https://quay.io/repository/chornberger/weekly-uptime)
 # weekly-uptime
 
 It shows the uptime of your workstation for this week.
