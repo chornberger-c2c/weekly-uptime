@@ -10,7 +10,7 @@ And on RHEL systems with podman:
 ```
 sudo podman run -v /var/log/wtmp:/var/log/wtmp:Z quay.io/chornberger/weekly-uptime
 ```
-There is also a version that was written with assistance of AI:
+There is also a version that was written with assistance of AI that calculates the total uptime for this week.
 
 Docker:
 ```
