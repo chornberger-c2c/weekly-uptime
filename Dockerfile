@@ -1,3 +1,4 @@
 FROM alpine:latest
-ADD --chmod=755 weekly-uptime-ai-assisted-final.sh /opt/app/weekly-uptime.sh
+ADD weekly-uptime-ai-assisted-final.sh /opt/app/weekly-uptime.sh
+RUN chmod +x /opt/app/weekly-uptime.sh
 CMD ["/opt/app/weekly-uptime.sh"]
